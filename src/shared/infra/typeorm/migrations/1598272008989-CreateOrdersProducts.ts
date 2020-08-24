@@ -60,7 +60,7 @@ export default class CreateOrdersProducts1598272008989
         columnNames: ['order_id'],
         referencedColumnNames: ['id'],
         referencedTableName: 'orders',
-        onUpdate: 'SET NULL',
+        onDelete: 'SET NULL',
       }),
     );
 
@@ -71,7 +71,7 @@ export default class CreateOrdersProducts1598272008989
         columnNames: ['product_id'],
         referencedColumnNames: ['id'],
         referencedTableName: 'products',
-        onUpdate: 'SET NULL',
+        onDelete: 'SET NULL',
       }),
     );
   }
